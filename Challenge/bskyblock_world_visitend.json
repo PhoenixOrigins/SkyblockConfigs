@@ -15,7 +15,7 @@
   "level": "bskyblock_world_elite",
   "requiredPermissions": [],
   "requiredBlocks": {
-    "NETHERRACK": 1
+    "END_STONE": 1
   },
   "removeBlocks": false,
   "requiredEntities": {},

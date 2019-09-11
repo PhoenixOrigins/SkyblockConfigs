@@ -29,7 +29,7 @@
   "rewardText": "Small amounts of sand and gravel will always be handy.",
   "rewardItems": [
     "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1631\n  type: SAND\n  amount: 4\n",
-	"is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1631\n  type: GRAVEL\n  amount: 4\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1631\n  type: GRAVEL\n  amount: 4\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 10,
@@ -40,7 +40,7 @@
   "repeatExperienceReward": 5,
   "repeatItemReward": [
     "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1631\n  type: SAND\n",
-	"is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1631\n  type: GRAVEL\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1631\n  type: GRAVEL\n"
   ],
   "repeatMoneyReward": 1,
   "repeatRewardCommands": []

@@ -1,39 +1,33 @@
 {
   "uniqueId": "bskyblock_world_netherkiller",
-  "friendlyName": "Water Zoo",
+  "friendlyName": "Turtle Breeder",
   "deployed": true,
   "description": [
-    "Create a water animal zoo!"
+    "Prepare your turtle army!"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1631\n  type: BLUE_STAINED_GLASS_PANE\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1631\n  type: TURTLE_EGG\n",
   "order": 7,
-  "challengeType": "ISLAND",
+  "challengeType": "INVENTORY",
   "environment": [
     "NORMAL"
   ],
   "removeWhenCompleted": false,
-  "level": "bskyblock_world_elite",
+  "level": "bskyblock_world_advanced",
   "requiredPermissions": [],
   "requiredBlocks": {},
   "removeBlocks": false,
-  "requiredEntities": {
-    "SALMON": 2,
-    "COD": 2,
-    "TROPICAL_FISH": 10,
-    "TURTLE": 2,
-    "SQUID": 2,
-    "PUFFERFISH": 2,
-    "DOLPHIN": 2
-  },
+  "requiredEntities": {},
   "removeEntities": false,
-  "requiredItems": [],
+  "requiredItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1631\n  type: TURTLE_EGG\n  amount: 64\n"
+  ],
   "takeItems": false,
   "requiredExperience": 0,
   "takeExperience": false,
   "requiredMoney": 0,
   "takeMoney": false,
-  "requiredIslandLevel": 10000,
-  "searchRadius": 20,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
   "rewardText": "Get some extra Diamonds and some Shulker Boxes.",
   "rewardItems": [
     "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 1631\n  type: DIAMOND\n  amount: 16\n",
